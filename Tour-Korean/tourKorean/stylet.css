@@ -1,0 +1,74 @@
+.tour-booking {
+    background-color: #dfe8f0;
+    border: 1px solid #eeabe6;
+    padding: 20px;
+    width: 884px;
+    margin: auto;
+    
+  }
+  
+  .tour-details {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .tour-details li {
+    padding: 5px 0;
+  }
+  
+  .booking-form {
+    margin-top: 20px;
+    text-align: center
+  }
+  
+  .booking-form form {
+    display: flex;
+    flex-direction: column;
+  }
+  .lich {
+    width: 127%;
+    height: 32px;
+  }
+  
+  .booking-form label {
+    margin-bottom: 5px;
+  }
+  
+  .booking-form input {
+    padding: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .passengers {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+  }
+  
+  .passengers label {
+    margin-right: 10px;
+    width: 100px;
+  }
+  
+  .passengers input {
+    width: 50px;
+  }
+  
+  .total-price {
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  .total-price span {
+    color: red;
+  }
+  
+  .booking-form button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
